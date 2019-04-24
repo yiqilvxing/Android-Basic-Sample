@@ -1,6 +1,7 @@
 # Android-Basic-Sample
+
 ### [Retrofit](https://github.com/square/retrofit)：目前最火的Android网络请求框架
-### [okhttp](https://github.com/square/okhttp)：：目前最火的的轻量级Android网络请求框架
+### [okhttp](https://github.com/square/okhttp)：目前最火的的轻量级Android网络请求框架
 ### [rxjava](https://github.com/ReactiveX/RxJava)：异步响应式编程框架
 ### [butterknife](https://github.com/JakeWharton/butterknife)：一个专注于Android系统的View注入框架
 ### [glide](https://github.com/bumptech/glide)：一个被Google所推荐的图片加载库
