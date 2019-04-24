@@ -31,7 +31,7 @@
 ## 示例项目相关截图
 ![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424165829.png)
 ![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424165741.png)
-![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424170014.png)
+![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424172315.png)
 ### [App下载二维码](https://www.pgyer.com/yangcheng_xm)
 ![下载二维码](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/yangcheng_xm.png)
 ## 关于作者
