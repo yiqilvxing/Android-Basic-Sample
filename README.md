@@ -12,8 +12,8 @@
 ### [GreenDao](https://github.com/greenrobot/greenDAO)：一个高效的数据库访问ORM框架
 ### [easypermissions](https://github.com/googlesamples/easypermissions)：一个简单、易用的权限处理库
 ### [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)：一个强大、稳定、智能的上下拉刷新框架
-### [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)：一个智能的自定义ViewPager tab指示器
-### [banner](https://github.com/youth5201314/banner)：支持不同样式、不同动画等图片录播图控件
+### [SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)：一个智能的自定义ViewPager Tab指示器
+### [banner](https://github.com/youth5201314/banner)：支持不同样式、不同动画等图片轮播图控件
 ### [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)：自定义RecycleView万能适配器
 ### [CircleImageView](https://github.com/hdodenhof/CircleImageView)：一个自定义圆角ImageView控件
 ### [AiYaCompressHelper](https://github.com/nanchen2251/AiYaCompressHelper)：强大的图片、文件等压缩框架
