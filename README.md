@@ -21,10 +21,10 @@
 ### [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)：用于实现Activity侧滑退出的效果
 ### [Matisse](https://github.com/zhihu/Matisse)：知乎提供的一个非常好用的图片选择器
 ===============================================================================
-### [tinkerpatch](http://tinkerpatch.com)：腾讯提供的Android热更新修复服务平台
-### [Bugley](https://bugly.qq.com/v2/index)：腾讯提供的专业异常上报和运营统计平台
+### [tinkerpatch](http://tinkerpatch.com)：腾讯旗下的Android热更新修复服务平台
+### [Bugley](https://bugly.qq.com/v2/index)：腾讯旗下的专业异常上报和运营统计平台
 ### [JPush](https://www.jiguang.cn)：极光消息推送服务平台
-### [HeWeather](https://www.heweather.com)：强大的天气服务平台
+### [HeWeather](https://www.heweather.com)：和风天气服务平台
 ### [MOB](http://www.mob.com)：移动智能科技平台
 ### [AMap](https://lbs.amap.com)：高德地图开放平台
 ### [PGY](https://www.pgyer.com)：蒲公英移动应用内测服务平台
