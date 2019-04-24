@@ -28,9 +28,15 @@
 ### [MOB](http://www.mob.com)：移动智能科技平台
 ### [AMap](https://lbs.amap.com)：高德地图开放平台
 ### [PGY](https://www.pgyer.com)：蒲公英移动应用内测服务平台
+## 示例项目相关截图
+![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424165829.png)
+![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424165741.png)
+![截图](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/QQ图片20190424170014.png)
+### [App下载二维码](https://www.pgyer.com/yangcheng_xm)
+![下载二维码](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/yangcheng_xm.png)
 ## 关于作者
 **一起去旅行**
-* WeChat：lvxing_ii
+* WeChat：lvxing_i
 * QQ：457768396
 * Email：bravedeveloper@sina.com
 ## 感谢
