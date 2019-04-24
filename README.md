@@ -28,3 +28,9 @@
 ### [MOB](http://www.mob.com)：移动智能科技平台
 ### [AMap](https://lbs.amap.com)：高德地图开放平台
 ### [PGY](https://www.pgyer.com)：蒲公英移动应用内测服务平台
+# 关于作者
+**一起去旅行**
+* WeChat：lvxing_ii
+* QQ：457768396
+* Email：bravedeveloper@sina.com
+# 感谢
