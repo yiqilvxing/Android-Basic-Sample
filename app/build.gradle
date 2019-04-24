@@ -46,13 +46,13 @@ android {
         release {
             keyAlias 'quancheng'
             keyPassword 'cnitr123456'
-            storeFile file('G:/yangcheng/打包/数字签名/android_keystore')
+            storeFile file('android_keystore')
             storePassword 'cnitr123456'
         }
         debug {
             keyAlias 'quancheng'
             keyPassword 'cnitr123456'
-            storeFile file('G:/yangcheng/打包/数字签名/android_keystore')
+            storeFile file('android_keystore')
             storePassword 'cnitr123456'
         }
     }
