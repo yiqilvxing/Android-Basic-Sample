@@ -34,4 +34,4 @@
 * QQ：457768396
 * Email：bravedeveloper@sina.com
 ## 感谢
-![微信赞赏](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/webwxgetmsgimg.png)
+![微信赞赏](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/webwxgetmsgimg.png)
