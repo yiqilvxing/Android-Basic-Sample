@@ -44,15 +44,15 @@ android {
     }
     signingConfigs {
         release {
-            keyAlias 'quancheng'
+            keyAlias 'cnitr'
             keyPassword 'cnitr123456'
-            storeFile file('android_keystore')
+            storeFile file('android_keystore.jks')
             storePassword 'cnitr123456'
         }
         debug {
-            keyAlias 'quancheng'
+            keyAlias 'cnitr'
             keyPassword 'cnitr123456'
-            storeFile file('android_keystore')
+            storeFile file('android_keystore.jks')
             storePassword 'cnitr123456'
         }
     }

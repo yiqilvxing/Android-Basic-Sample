@@ -36,7 +36,7 @@
 ![下载二维码](https://github.com/yiqilvxing/Android-Basic-Sample/blob/master/images/yangcheng_xm.png)
 ## 关于作者
 **一起去旅行**
-* WeChat：lvxing_i
+* WeChat：lvxing_ii
 * QQ：457768396
 * Email：bravedeveloper@sina.com
 ## 感谢
