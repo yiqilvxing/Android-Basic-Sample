@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="#666666"
+        android:textSize="@dimen/text_size_small" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#f2f6f8"
+        android:gravity="top|left"
+        android:hint="@string/hint_note"
+        android:inputType="text"
+        android:maxHeight="300dp"
+        android:maxLength="10000"
+        android:minHeight="150dp"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:textColor="#333333"
+        android:textSize="@dimen/text_size_normal">
+
+        <requestFocus />
+    </android.support.v7.widget.AppCompatEditText>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_btn_selector"
+        android:text="@android:string/ok"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_normal" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="news_title">
+        <item>热点</item>
+        <item>时尚</item>
+        <item>娱乐</item>
+        <item>互联网</item>
+        <item>体育</item>
+        <item>旅行</item>
+        <item>搞笑</item>
+        <item>游戏</item>
+    </array>
+
+    <array name="news_type">
+        <item>2</item>
+        <item>1</item>
+        <item>7</item>
+        <item>13</item>
+        <item>16</item>
+        <item>9</item>
+        <item>11</item>
+        <item>17</item>
+    </array>
+
+    <array name="arrays_mine">
+        <item>个人资料</item>
+        <item>我的书签</item>
+        <item>备忘录</item>
+        <item>扫一扫</item>
+        <item>小游戏</item>
+        <item>设置</item>
+    </array>
+
+    <array name="arrays_mine_data">
+        <item>我的昵称</item>
+        <item>邮箱</item>
+        <item>电话</item>
+        <item>个性签名</item>
+    </array>
+
+    <array name="arrays_mine_set">
+        <item>意见反馈</item>
+        <item>关于</item>
+    </array>
+
+    <array name="arrays_led_colors">
+        <item>白色</item>
+        <item>红色</item>
+        <item>粉色</item>
+        <item>蓝色</item>
+        <item>黄色</item>
+        <item>绿色</item>
+        <item>紫色</item>
+    </array>
+
+</resources>

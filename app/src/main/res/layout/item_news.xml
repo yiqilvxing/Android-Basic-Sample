@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/layoutItem"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/recyclerview_selector"
+        android:clickable="true">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@id/image"
+            android:layout_width="86dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layoutBottom"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@id/image"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="5dp"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_normal" />
+
+        <RelativeLayout
+            android:id="@+id/layoutBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/image"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@id/browse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="bottom"
+                android:drawableLeft="@mipmap/img_eyes"
+                android:drawablePadding="2dp"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="bottom"
+                android:drawablePadding="5dp"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="@dimen/text_size_small" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/line_horizontal" />
+
+</LinearLayout>

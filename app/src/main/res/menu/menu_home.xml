@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_news"
+        android:icon="@mipmap/ic_news_gray"
+        android:title="@string/menu_news" />
+
+    <item
+        android:id="@+id/item_mm"
+        android:icon="@mipmap/ic_discovery_gray"
+        android:title="@string/menu_mm" />
+
+    <item
+        android:id="@+id/item_me"
+        android:icon="@mipmap/ic_more_gray"
+        android:title="@string/menu_me" />
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="layoutTop" type="id" />
+    <item name="layoutBottom" type="id" />
+    <item name="layoutLeft" type="id" />
+    <item name="layoutRight" type="id" />
+    <item name="layoutParent" type="id" />
+    <item name="layoutItem" type="id" />
+    <item name="no_data" type="id" />
+    <item name="scrollView" type="id" />
+    <item name="refreshLayout" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="bottomNavigationView" type="id" />
+    <item name="viewPager" type="id" />
+    <item name="arrow" type="id" />
+    <item name="image" type="id" />
+    <item name="time" type="id" />
+    <item name="title" type="id" />
+    <item name="name" type="id" />
+    <item name="count" type="id" />
+    <item name="browse" type="id" />
+    <item name="date" type="id" />
+    <item name="banner" type="id" />
+    <item name="custom_text" type="id"></item>
+    <item name="btnConfirm" type="id"></item>
+    <item name="tv" type="id"></item>
+    <item name="text" type="id"></item>
+
+
+    <!--zxing-->
+    <item name="auto_focus" type="id" />
+    <item name="decode" type="id" />
+    <item name="decode_failed" type="id" />
+    <item name="decode_succeeded" type="id" />
+    <item name="encode_failed" type="id" />
+    <item name="encode_succeeded" type="id" />
+    <item name="launch_product_query" type="id" />
+    <item name="quit" type="id" />
+    <item name="restart_preview" type="id" />
+    <item name="return_scan_result" type="id" />
+    <item name="search_book_contents_failed" type="id" />
+    <item name="search_book_contents_succeeded" type="id" />
+
+</resources>

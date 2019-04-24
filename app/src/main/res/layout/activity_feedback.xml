@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="#f2f6f8"
+        android:gravity="top|left"
+        android:hint="请输入您的意见反馈~"
+        android:inputType="text"
+        android:maxLength="1000"
+        android:padding="8dp"
+        android:textColor="#333333"
+        android:textSize="@dimen/text_size_normal">
+
+        <requestFocus />
+    </android.support.v7.widget.AppCompatEditText>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="10dp"
+        android:text="感谢您宝贵的意见和反馈，我们将认真思考，尽量的去改进。"
+        android:textColor="#999999"
+        android:textSize="@dimen/text_size_small" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_btn_selector"
+        android:text="@android:string/ok"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_normal" />
+
+</LinearLayout>

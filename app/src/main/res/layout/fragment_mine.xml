@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.scwang.smartrefresh.header.flyrefresh.MountainSceneView
+        android:id="@+id/mountain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:msvPrimaryColor="?attr/colorPrimary"
+        app:msvViewportHeight="300dp" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/transparent"
+        android:clipChildren="false"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/headImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="?attr/colorPrimaryDark"
+                app:civ_border_width="0dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tViewSetHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="@string/set_header"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_small" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:srlEnableLoadMore="false"
+        app:srlEnableOverScrollBounce="false"
+        app:srlEnablePreviewInEditMode="true"
+        app:srlHeaderHeight="100dp"
+        app:srlHeaderMaxDragRate="1.5"
+        app:srlReboundDuration="200">
+
+        <com.scwang.smartrefresh.header.FlyRefreshHeader
+            android:id="@+id/flyRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingTop="25dp" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="?attr/colorPrimary"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/recyclerView"
+        app:layout_anchorGravity="top" />
+
+    <com.scwang.smartrefresh.header.flyrefresh.FlyView
+        android:id="@+id/flyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:elevation="3dp"
+        app:layout_anchor="@id/fab"
+        app:layout_anchorGravity="center" />
+
+</android.support.design.widget.CoordinatorLayout>

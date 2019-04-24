@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customAttr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cnitr.cn.widget.ScrollTextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:keepScreenOn="true"
+        customAttr:clickEnable="true"
+        customAttr:isHorizontal="true"
+        customAttr:speed="3"
+        customAttr:text="@string/app_name"
+        customAttr:textColor="@android:color/white"
+        customAttr:textSize="100sp" />
+
+</FrameLayout>

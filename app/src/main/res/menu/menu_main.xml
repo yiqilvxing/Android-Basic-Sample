@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/common_tools">
+        <menu>
+            <item
+                android:id="@+id/tool_calendar"
+                android:icon="@mipmap/tool_calendar"
+                android:title="@string/tool_calendar" />
+            <item
+                android:id="@+id/tool_weather"
+                android:icon="@mipmap/tool_weather"
+                android:title="@string/tool_weather" />
+            <item
+                android:id="@+id/tool_express"
+                android:icon="@mipmap/tool_express"
+                android:title="@string/tool_express" />
+            <item
+                android:id="@+id/tool_led"
+                android:icon="@mipmap/tool_led"
+                android:title="@string/tool_led" />
+        </menu>
+    </item>
+
+    <item android:title="@string/entertainment_leisure">
+        <menu>
+            <item
+                android:id="@+id/tool_jokes"
+                android:icon="@mipmap/tool_jokes"
+                android:title="@string/tool_jokes" />
+            <item
+                android:id="@+id/tool_games"
+                android:icon="@mipmap/tool_games"
+                android:title="@string/tool_games" />
+        </menu>
+    </item>
+
+</menu>

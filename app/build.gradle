@@ -1,0 +1,172 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+apply from: 'tinkerpatch.gradle'
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+greendao {
+    schemaVersion 1 // 数据库版本号
+    daoPackage 'com.cnitr.cn.greendao.dao'//greenDao 自动生成的代码保存的包名
+    targetGenDir 'src/main/java' // 自动生成的代码存储的路径
+}
+android {
+    repositories {
+        jcenter()
+    }
+
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.cnitr.cn"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 20
+        versionName "2.0"
+        multiDexEnabled true
+
+        ndk {
+            abiFilters 'armeabi', 'armeabi-v7a'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "a6bd4bb021dfdbc2b90fcb79", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs 'src/main/jniLibs'  // 设置目标的so存放路径
+        }
+    }
+    signingConfigs {
+        release {
+            keyAlias 'quancheng'
+            keyPassword 'cnitr123456'
+            storeFile file('G:/yangcheng/打包/数字签名/android_keystore')
+            storePassword 'cnitr123456'
+        }
+        debug {
+            keyAlias 'quancheng'
+            keyPassword 'cnitr123456'
+            storeFile file('G:/yangcheng/打包/数字签名/android_keystore')
+            storePassword 'cnitr123456'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile files('libs/zxing.jar')
+        compile files('libs/sdk_HeWeather_Public_Android_V2.0.jar')
+        compile files('libs/AMap_Location_V4.3.0_20181016.jar')
+        compile 'com.android.support:support-v4:27.1.1'
+        compile 'com.android.support:appcompat-v7:27.1.1'
+        compile 'com.android.support:support-v13:27.1.1'
+        compile 'com.android.support:design:27.1.1'
+        compile 'com.android.support:recyclerview-v7:27.1.1'
+        compile 'com.android.support:cardview-v7:27.1.1'
+        compile 'com.android.support:support-annotations:27.1.1'
+        compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+        // 若使用annotation需要单独引用,对于tinker的其他库都无需再引用
+        provided("com.tinkerpatch.tinker:tinker-android-anno:1.9.9")
+        compile("com.tinkerpatch.sdk:tinkerpatch-android-sdk:1.2.9")
+
+        // swipebacklayout
+        compile 'me.imid.swipebacklayout.lib:library:1.1.0'
+
+        // wechat-sdk
+        compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:1.1.6'
+
+        // easypermissions
+        compile 'pub.devrel:easypermissions:1.0.0'
+
+        // retrofit 2
+        compile 'com.squareup.retrofit2:retrofit:2.3.0'
+        compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+        compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+        compile 'com.squareup.retrofit2:converter-scalars:2.3.0'
+
+        // RxJava 2
+        compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+        compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+        // RxLifecycle
+        compile 'com.trello.rxlifecycle2:rxlifecycle:2.0.1'
+        compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.0.1'
+
+        // okhttp 3
+        compile 'com.squareup.okhttp3:okhttp:3.9.0'
+        compile 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+
+        // butterknife
+        compile 'com.jakewharton:butterknife:7.0.1'
+
+        // fastjson
+        compile 'com.alibaba:fastjson:1.2.16'
+
+        // glide
+        compile 'com.github.bumptech.glide:glide:3.7.0'
+
+        // agentweb
+        compile 'com.just.agentweb:agentweb:4.0.2'
+        compile 'com.just.agentweb:download:4.0.2'
+        compile 'com.just.agentweb:filechooser:4.0.2'
+
+        // SmartRefreshLayout
+        compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+        compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
+
+        // smarttablayout
+        compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+        compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+
+        // BaseRecyclerViewAdapterHelper
+        compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+
+        // banner
+        compile 'com.youth.banner:banner:1.4.10'
+
+        // matisse
+        compile 'com.zhihu.android:matisse:0.4.3'
+
+        // circleimageview
+        compile 'de.hdodenhof:circleimageview:2.2.0'
+
+        // imagezoom
+        compile 'liji.library.dev:imagezoom:1.3.1'
+
+        // leakcanary
+        compile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+
+        // bugly
+        compile 'com.tencent.bugly:crashreport:latest.release'
+
+        // xutils
+        compile 'org.xutils:xutils:3.5.0'
+
+        // calendarview
+        compile 'com.haibin:calendarview:3.4.8'
+
+        // joda
+        compile 'net.danlew:android.joda:2.9.9'
+
+        // jpush
+        compile 'cn.jiguang.sdk:jpush:3.1.6'
+        compile 'cn.jiguang.sdk:jcore:1.2.5'
+
+        // GreenDao
+        compile 'org.greenrobot:greendao:3.2.2'
+
+        // CompressHelper
+        compile 'com.github.nanchen2251:CompressHelper:1.0.5'
+    }
+
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_weather_bg"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.cnitr.cn.widget.CustomNestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/weather_now" />
+
+                <include layout="@layout/weather_space" />
+
+                <include layout="@layout/weather_hourly" />
+
+                <include layout="@layout/weather_space" />
+
+                <include layout="@layout/weather_forecast" />
+
+                <include layout="@layout/weather_space" />
+
+                <include
+                    android:id="@+id/weather_suggestion"
+                    layout="@layout/weather_suggestion"
+                    android:visibility="gone" />
+
+                <include layout="@layout/weather_space" />
+
+            </LinearLayout>
+        </com.cnitr.cn.widget.CustomNestedScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

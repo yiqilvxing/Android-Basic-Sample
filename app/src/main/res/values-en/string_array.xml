@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="news_title">
+        <item>Hots</item>
+        <item>Fashion</item>
+        <item>Entert</item>
+        <item>Internet</item>
+        <item>Sports</item>
+        <item>Travel</item>
+        <item>Funny</item>
+        <item>Game</item>
+    </array>
+
+    <array name="news_type">
+        <item>2</item>
+        <item>1</item>
+        <item>7</item>
+        <item>13</item>
+        <item>16</item>
+        <item>9</item>
+        <item>11</item>
+        <item>17</item>
+    </array>
+
+    <array name="arrays_mine">
+        <item>Personal Data</item>
+        <item>My Bookmarks</item>
+        <item>Memorandum</item>
+        <item>Scan</item>
+        <item>Little Game</item>
+        <item>Settings</item>
+    </array>
+
+    <array name="arrays_mine_data">
+        <item>My Nickname</item>
+        <item>Mailbox</item>
+        <item>Telephone</item>
+        <item>Personalized Signature</item>
+    </array>
+
+    <array name="arrays_mine_set">
+        <item>Feedback</item>
+        <item>About</item>
+    </array>
+
+    <array name="arrays_led_colors">
+        <item>white</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Violet</item>
+    </array>
+
+</resources>
