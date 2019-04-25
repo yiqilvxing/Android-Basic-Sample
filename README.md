@@ -20,7 +20,7 @@
 ### [CalendarView](https://github.com/huanghaibin-dev/CalendarView)：一个优雅、万能自定义UI、性能高效的日历控件
 ### [SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)：用于实现Activity侧滑退出的效果
 ### [Matisse](https://github.com/zhihu/Matisse)：知乎提供的一个非常好用的图片选择器
-===============================================================================
+***
 ### [tinkerpatch](http://tinkerpatch.com)：腾讯旗下的Android热更新修复服务平台
 ### [Bugly](https://bugly.qq.com/v2/index)：腾讯旗下的专业异常上报和运营统计平台
 ### [JPush](https://www.jiguang.cn)：极光消息推送服务平台
