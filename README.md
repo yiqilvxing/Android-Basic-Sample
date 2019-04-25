@@ -1,7 +1,7 @@
 # Android-Basic-Sample
 这个示例项目中用到的开发库、框架、工具类等如下，示例项目的简单使用仅供参考。
 ### [Retrofit](https://github.com/square/retrofit)：目前最火的Android网络请求框架
-### [okhttp](https://github.com/square/okhttp)：目前最火的的轻量级Android网络请求框
+### [okhttp](https://github.com/square/okhttp)：目前最火的的轻量级Android网络请求框架
 ### [rxjava](https://github.com/ReactiveX/RxJava)：异步响应式编程框架
 ### [zxing](https://github.com/zxing/zxing)：一个强大的二维码解析、生成框架
 ### [butterknife](https://github.com/JakeWharton/butterknife)：一个专注于Android系统的View注入框架
