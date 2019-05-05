@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.cnitr.cn.R;
 import com.cnitr.cn.util.CommonUtil;
+import com.cnitr.cn.widget.LoadingDialog;
 
 import butterknife.Bind;
 
@@ -58,8 +59,19 @@ public class FeedbackActivity extends BaseActivity {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(FeedbackActivity.this, "感谢您意见反馈", Toast.LENGTH_SHORT).show();
-                        FeedbackActivity.this.finish();
+
+                        final LoadingDialog mLoadingDialog = new LoadingDialog(FeedbackActivity.this);
+                        mLoadingDialog.show();
+                        new android.os.Handler().postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (mLoadingDialog != null) {
+                                    mLoadingDialog.dismiss();
+                                }
+                                Toast.makeText(FeedbackActivity.this, "感谢您意见反馈", Toast.LENGTH_SHORT).show();
+                                FeedbackActivity.this.finish();
+                            }
+                        }, 1000);
                     }
                 });
                 mBuilder.setNegativeButton(android.R.string.no, null);

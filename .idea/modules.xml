@@ -3,23 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-Basic-Sample.iml" filepath="$PROJECT_DIR$/Android-Basic-Sample.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\Android-Basic-Sample.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\Android-Basic-Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\app\app.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/common/common.iml" filepath="$PROJECT_DIR$/library/common/common.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\common\common.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\common\common.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/irecyclerview/irecyclerview.iml" filepath="$PROJECT_DIR$/library/irecyclerview/irecyclerview.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\irecyclerview\irecyclerview.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\irecyclerview\irecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/jcvideoplayer/jcvideoplayer.iml" filepath="$PROJECT_DIR$/library/jcvideoplayer/jcvideoplayer.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\jcvideoplayer\jcvideoplayer.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\jcvideoplayer\jcvideoplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\library.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\library.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/oneKeyShareSDK/oneKeyShareSDK.iml" filepath="$PROJECT_DIR$/library/oneKeyShareSDK/oneKeyShareSDK.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\oneKeyShareSDK\oneKeyShareSDK.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\oneKeyShareSDK\oneKeyShareSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/photoPicker/photoPicker.iml" filepath="$PROJECT_DIR$/library/photoPicker/photoPicker.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\photoPicker\photoPicker.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\photoPicker\photoPicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/selectordialog/selectordialog.iml" filepath="$PROJECT_DIR$/library/selectordialog/selectordialog.iml" />
-      <module fileurl="file://G:\yangcheng\workspace\Android-Basic-Sample\library\selectordialog\selectordialog.iml" filepath="G:\yangcheng\workspace\Android-Basic-Sample\library\selectordialog\selectordialog.iml" />
     </modules>
   </component>
 </project>

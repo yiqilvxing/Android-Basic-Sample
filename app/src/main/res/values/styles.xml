@@ -67,13 +67,24 @@
         <item name="android:background">@android:color/background_dark</item>
     </style>
 
-    <style name="QHQ_Comment_Dialog" parent="@style/AppTheme">
+    <style name="Comment_Dialog" parent="@style/AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:windowSoftInputMode">stateAlwaysVisible</item>
         <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="LoadingDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
     </style>
 
 </resources>

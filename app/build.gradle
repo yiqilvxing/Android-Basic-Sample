@@ -57,6 +57,15 @@ android {
         }
     }
 
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
     lintOptions {
         abortOnError false
     }
@@ -167,6 +176,9 @@ android {
 
         // CompressHelper
         compile 'com.github.nanchen2251:CompressHelper:1.0.5'
+
+        // AVI
+        compile 'com.wang.avi:library:2.1.3'
     }
 
 }

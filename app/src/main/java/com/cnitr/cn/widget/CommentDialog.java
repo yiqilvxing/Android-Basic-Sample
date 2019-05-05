@@ -25,7 +25,7 @@ import com.cnitr.cn.util.KeyboardUtils;
  * Created by YangChen on 2019/1/15.
  */
 
-public class QHQCommentDialog extends DialogFragment implements TextWatcher, View.OnClickListener {
+public class CommentDialog extends DialogFragment implements TextWatcher, View.OnClickListener {
 
     //点击发表，内容不为空时的回调
     public SendListener sendListener;
@@ -36,11 +36,11 @@ public class QHQCommentDialog extends DialogFragment implements TextWatcher, Vie
     private EditText et_content;
     private LinearLayout layoutMain;
 
-    public QHQCommentDialog() {
+    public CommentDialog() {
     }
 
     @SuppressLint("ValidFragment")
-    public QHQCommentDialog(String hintText, SendListener sendBackListener) {//提示文字
+    public CommentDialog(String hintText, SendListener sendBackListener) {//提示文字
         this.hintText = hintText;
         this.sendListener = sendBackListener;
     }
@@ -48,9 +48,9 @@ public class QHQCommentDialog extends DialogFragment implements TextWatcher, Vie
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
         // 使用不带Theme的构造器, 获得的dialog边框距离屏幕仍有几毫米的缝隙。
-        dialog = new Dialog(getActivity(), R.style.QHQ_Comment_Dialog);
+        dialog = new Dialog(getActivity(), R.style.Comment_Dialog);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // 设置Content前设定
-        View contentView = View.inflate(getActivity(), R.layout.qhq_dialog_comment, null);
+        View contentView = View.inflate(getActivity(), R.layout.dialog_comment, null);
         dialog.setContentView(contentView);
         dialog.setCanceledOnTouchOutside(true); // 外部点击取消
 

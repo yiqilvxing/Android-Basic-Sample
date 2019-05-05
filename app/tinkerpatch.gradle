@@ -7,8 +7,8 @@ import java.util.regex.Pattern
  * TODO: 请按自己的需求修改为适应自己工程的参数
  */
 def bakPath = file("${buildDir}/bakApk/")
-def baseInfo = "app-2.0-0423-15-00-18"
-def variantName = "debug"
+def baseInfo = "app-2.0-0430-14-24-09"
+def variantName = "release"
 
 /**
  * 对于插件各参数的详细解析请参考
